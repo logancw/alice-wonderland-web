@@ -1,0 +1,24 @@
+.main{
+    border: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    
+}
+
+.main h1{
+    background-color: transparent;
+    transform: translate(-10%, 49.5%);
+    color: #8B0000;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+}
+
+body{
+    background-image: url('./background.jpg');
+}

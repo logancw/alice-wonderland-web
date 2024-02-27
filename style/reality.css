@@ -1,0 +1,20 @@
+.cascade {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.cascade div {
+    margin-left: 10px;
+}
+
+body{
+    background-color: transparent;
+    transform: translate(2%, 140.5%);
+    color: black;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 70px;
+    background-color: red;
+}

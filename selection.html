@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alice Adventures in Wonderland | Selection</title>
+    <link rel="stylesheet" href="style/selectiom.css">
+</head>
+<body>
+    <div class="main">
+        <h1 id="main-text">Select your path</b></h1>
+        <a><img id="door-reality" src="./door.png" alt="" onclick="console.log('test');"></a>
+        <a><img id="door-deception" src="./door.png" alt="" onclick="console.log('test');"></a>
+    </div>
+    <div class="selection-reality">
+        <h1>Face Reality</h1>
+    </div>
+    <div class="selection-deception">
+        <h1>Lead Into Deception</h1>
+    </div>
+
+    <script>
+        const deceptionimg = document.querySelector("#door-deception");
+        const realityimg = document.querySelector('#door-reality');
+
+        deceptionimg.addEventListener("click", function(){
+            window.setTimeout(function(){
+                window.location.href = './deception.html';
+            },2000);
+        })
+
+        realityimg.addEventListener("click", function(){
+            // window.setTimeout(function(){
+            //     window.location.href = './reality.html';
+            // },2000);    
+            window.location.href = './reality.html';
+        })
+    </script>
+</body>
+</html>
