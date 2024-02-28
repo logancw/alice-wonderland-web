@@ -1,41 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alice Adventures in Wonderland | Selection</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alice Website | Selection</title>
     <link rel="stylesheet" href="style/selectiom.css">
-</head>
-<body>
-    <div class="main">
-        <h1 id="main-text">Select your path</b></h1>
-        <a><img id="door-reality" src="./door.png" alt="" onclick="console.log('test');"></a>
-        <a><img id="door-deception" src="./door.png" alt="" onclick="console.log('test');"></a>
-    </div>
-    <div class="selection-reality">
-        <h1>Face Reality</h1>
-    </div>
-    <div class="selection-deception">
-        <h1>Lead Into Deception</h1>
-    </div>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  </head>
+  <body>
+    <div class="image-container">
+        <div class="image">
+          <img src="door.png" alt="Image 1" id="reality">
+          <h2 class="fd">Face Reality</h2>
+        </div>
+        <div class="image">
+          <img src="door.png" alt="Image 2" id="deception">
+          <h2 class="ld">Lead Into Deception</h2>
+        </div>
+      </div>
+      <script>
+        const reality = document.getElementById('reality');
+        const deception = document.getElementById('deception');
 
-    <script>
-        const deceptionimg = document.querySelector("#door-deception");
-        const realityimg = document.querySelector('#door-reality');
-
-        deceptionimg.addEventListener("click", function(){
-            // window.setTimeout(function(){
-            //     window.location.href = './deception.html';
-            // },1000);
-            window.location.href = "./deception.html"
-        })
-
-        realityimg.addEventListener("click", function(){
-            // window.setTimeout(function(){
-            //     window.location.href = './reality.html';
-            // },2000);    
-            window.location.href = './reality.html';
-        })
-    </script>
-</body>
+        reality.addEventListener('click', () => {
+            window.location.href = 'reality.html';
+        });
+        deception.addEventListener('click', () => {
+            window.location.href = 'deception.html';
+        });
+      </script>
+  </body>
 </html>

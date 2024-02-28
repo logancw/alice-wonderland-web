@@ -1,20 +1,14 @@
-.cascade {
-    text-align: center;
-    line-height: 1.5;
-}
-
-.cascade div {
-    margin-left: 10px;
-}
-
-body{
-    background-color: transparent;
-    transform: translate(-1.5%, 200.5%);
+.container {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    height: 100vh; /* Full height of the viewport */
+    flex-direction: column; /* Stack the items vertically */
+    text-align: center; /* Center the text */
+    font-size: 50px;
     color: black;
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 70px;
-    background-color: red;
 }
+
+body {
+    background-color: red;
+  }
