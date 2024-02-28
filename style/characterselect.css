@@ -1,0 +1,30 @@
+.image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.image {
+    margin-top: 210px; /* Adjust as needed */
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+}
+.fd{
+    color: blue;
+}
+
+.ld{
+    color: red;
+}
+
+.queen-h2{
+    color: yellow;
+}
+
+body {
+    background-color: #301934;
+  }

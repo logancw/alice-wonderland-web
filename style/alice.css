@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    height: 100vh; /* Full height of the viewport */
+    flex-direction: column; /* Stack the items vertically */
+    text-align: center; /* Center the text */
+    font-size: 50px;
+    color: white;
+}
+
+.container h6 {
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+body {
+    background-color: #301934;
+  }
