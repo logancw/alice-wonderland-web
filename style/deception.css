@@ -1,8 +1,6 @@
-.selection-reality h1 { 
-
-    /* Face Reality */
-    margin-top: 1150px;
-    margin-left: 1290px;
+.selection-reality h1 {
+    margin-top: 1100px;
+    margin-left: 1310px;
      color: red;
      font-family: "Dancing Script", cursive;
      font-optical-sizing: auto;
@@ -10,10 +8,9 @@
      font-style: normal;
      font-size: 50px;
  }
- .selection-deception h1 { 
-    /* Lead into Deception Text */
-     margin-top: -90px;
-     margin-left: 1590px;
+ .selection-deception h1 {
+     margin-top: -95px;
+     margin-left: 1710px;
      color: blue;
       font-family: "Dancing Script", cursive;
       font-optical-sizing: auto;
